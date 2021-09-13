@@ -39,7 +39,7 @@ function App() {
               classNames="fade"
             >
 <Switch>
-<Route exact path="/" component={Home} /> 
+<Route exact path="/" component={App} /> 
       <Route exact path="./about" component={About} /> 
       <Route exact path="./skills"component={Skills} /> 
       <Route exact path="./experience" component={Experience} /> 
