@@ -39,14 +39,14 @@ function App() {
               classNames="fade"
             >
 <Switch>
-<Route exact path="/" component={Home} /> 
-      <Route exact path="/about" component={About} /> 
-      <Route exact path="/skills"component={Skills} /> 
-      <Route exact path="/experience" component={Experience} /> 
-      <Route exact path="/education" component={Education} /> 
-      <Route exact path="/portfolio" component={Portfolio} /> 
-      <Route exact path="/contact" component={Contact} /> 
-      <Route exact path="/resume" component={Pdf1} /> 
+<Route exact path="./" component={Home} /> 
+      <Route exact path="./about" component={About} /> 
+      <Route exact path="./skills"component={Skills} /> 
+      <Route exact path="./experience" component={Experience} /> 
+      <Route exact path="./education" component={Education} /> 
+      <Route exact path="./portfolio" component={Portfolio} /> 
+      <Route exact path="./contact" component={Contact} /> 
+      <Route exact path="./resume" component={Pdf1} /> 
               <Route component={NoMatch} />
             </Switch>
             </CSSTransition>
