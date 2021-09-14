@@ -8,9 +8,9 @@ const Header = () => {
   return (
     <>
   
-    <div class="main-wrapper main-section">
+    <div className="main-wrapper main-section">
         <div id="home-banner">
-            <div class="container">
+            <div className="container">
 
 
                 <div className="row d-none d-sm-none d-md-block">

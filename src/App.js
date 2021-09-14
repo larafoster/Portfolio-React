@@ -9,10 +9,10 @@ import "./assets/css/renderPage.css";
 
 import Header from "./components/includes/Header.js";
 import NavTop from "./components/includes/Nav.js";
-import Footer from "./components/includes/Footer";
+import Footer from "./components/includes/Footer.js";
 
 
-import AppRouter from "./config/Router"
+import AppRouter from "./config/Router.js"
 const App = () => {
  
     return (
@@ -31,4 +31,4 @@ const App = () => {
     )
 }
 
-export default App
+export default App;

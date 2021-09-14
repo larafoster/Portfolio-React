@@ -32,7 +32,7 @@ const NavTop = () => {
                                     <li><NavHashLink to="/#top">Top</NavHashLink></li>
 
                                     <li>
-                                        <NavLink activeClassName="current" to="/#me">About Me</NavLink></li><li>
+                                        <NavLink to="/#me">About Me</NavLink></li><li>
                                         <NavHashLink activeClassName="current" to="/skills#navigation">Skills</NavHashLink></li><li>
                                         <NavHashLink activeClassName="current" to="/experience#navigation">Experience</NavHashLink></li><li>
                                         <NavHashLink activeClassName="current" to="/education#navigation">Education</NavHashLink></li><li>
