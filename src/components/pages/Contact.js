@@ -68,7 +68,7 @@ const Contact = () => {
                           <li>
                             <Link to="resume">
                               <i
-                                class="far fa-file-user fa-2x"
+                                className="far fa-file-user fa-2x"
                                 aria-hidden="true"
                                 alt="download resume"
                               ></i>

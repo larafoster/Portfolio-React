@@ -1,6 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
-import { HashLink } from 'react-router-hash-link';
+import { NavHashLink } from 'react-router-hash-link';
 import NavMobile from './NavMobile';
 import {
     Container,
@@ -28,15 +27,17 @@ const NavTop = () => {
                        
                             <nav id="mainmenu">
                                 <ul className="nav navbar-nav">
-                                    <li><NavLink duration={500} exact to="/#top">Home</NavLink></li>
+                                    <li><NavHashLink duration={500} exact to="/#top">Home</NavHashLink></li>
 
                                     <li>
-                                        <HashLink duration={500} exact activeClassName="current" to="/#me">About Me</HashLink></li><li>
-                                        <NavLink duration={500} exact activeClassName="current" to="./skills">Skills</NavLink></li><li>
-                                        <NavLink duration={500} exact activeClassName="current" to="./experience">Experience</NavLink></li><li>
-                                        <NavLink duration={500} exact activeClassName="current" to="./education">Education</NavLink></li><li>
-                                        <NavLink duration={500} exact activeClassName="current" to="./portfolio">Portfolio</NavLink></li><li>
-                                        <NavLink duration={500} exact activeClassName="current" to="./contact">Contact</NavLink></li>
+                                        <NavHashLink duration={500} exact activeClassName="current" to="/about#navigation">About Me</NavHashLink></li><li>
+                                        <NavHashLink duration={500} exact activeClassName="current" to="./skills#navigation">Skills</NavHashLink></li><li>
+                                        <NavHashLink duration={500} exact activeClassName="current" to="./experience#navigation">Experience</NavHashLink></li><li>
+                                        <NavHashLink duration={500} exact activeClassName="current" to="./education#navigation">Education</NavHashLink></li><li>
+                                        <NavHashLink duration={500} exact activeClassName="current" to="./portfolio#navigation">Portfolio</NavHashLink></li>
+                                        <li>
+
+                                        <NavHashLink duration={500} exact activeClassName="current" to="./contact#navigation">Contact</NavHashLink></li>
                                 </ul>
 
                             </nav>

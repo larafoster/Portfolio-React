@@ -1,9 +1,12 @@
 import React from 'react';
+import NavTop from "../includes/Nav";
+import Footer from "../includes/Footer";
 
 const About = () => {
 
   return (
     <>
+      <NavTop />
 
       <div id="about" className="about-section section-padding">
             <div className="container">
@@ -30,6 +33,8 @@ const About = () => {
                 </div>
             </div>
         </div>
+              <Footer />
+
     </>
   );
 }

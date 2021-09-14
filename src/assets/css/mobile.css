@@ -5,7 +5,7 @@ DropdownItem .current {
 }
 
  .btn-group, .btn-group-vertical {
-    position: relative;
+    position: absolute;
     margin-left: 350px;
  
 } 

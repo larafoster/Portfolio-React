@@ -98,7 +98,7 @@ a:focus, button:focus, .btn:focus,
     line-height: 1rem;
 }
 .section-padding {
-    padding-top: 120px;
+    padding-top: 50px;
     padding-bottom: 60px;
 }
 
@@ -625,7 +625,7 @@ ul.sub-menu {
 
 /* About Section */
 .about-section {
-    padding-top: 180px;
+    padding-top: 40px;
 }
 
 .about-section .section-title {
@@ -1280,7 +1280,7 @@ img.mfp-img {
 /* Profile Section */
 
 .profile-section .section-padding {
-    padding-top: 110px;
+    padding-top: 10px;
     padding-bottom: 120px;
 }
 
