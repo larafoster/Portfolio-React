@@ -21,7 +21,7 @@ const Routes = () => {
 
 
 <Switch>
-      <Route exact path="/"> <About /></Route>
+      <Route path="/"> <About /></Route>
       <Route exact path="/about"> <About /></Route>
       <Route exact path="/skills"> <Skills /></Route>
       <Route exact path="/experience"> <Experience /></Route>
