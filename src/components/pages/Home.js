@@ -1,12 +1,10 @@
 import React from 'react'
-import NavTop from '../includes/Nav'
-import Header from '../includes/Header'
+import About from './About.js'
 
 const Home = () => {
   return (
     <>
-          <NavTop />
-      <NavTop />
+<About />
     </>
   )
 }
