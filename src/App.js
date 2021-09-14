@@ -14,8 +14,8 @@ import "./assets/css/renderPage.css";
 
 
 // home page
-import Home from "./components/pages/Home.js";
-// portfolio sections
+/* import Home from "./components/pages/Home.js";
+ */// portfolio sections
 import About from './components/pages/About.js';
 import Skills from './components/pages/Skills.js';
 import Experience from './components/pages/Experience.js';
@@ -38,7 +38,6 @@ function App() {
               classNames="fade"
             >
 <Switch>
-<Switch>
       <Route path="/"> <Home /></Route>
        <Route path="/about"> <About /></Route>
       <Route path="/skills"> <Skills /></Route>
@@ -49,7 +48,6 @@ function App() {
       <Route path="/resume"><Pdf1 /></Route>
      <Route path="*"><NoMatch /> </Route>
              </Switch>
-            </Switch>
             </CSSTransition>
           </TransitionGroup>
         )} >
