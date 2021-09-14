@@ -1,6 +1,6 @@
 import React from "react";
 import { ExternalLink } from "react-external-link";
-import Footer from "../includes/Footer";
+
 const Portfolio = () => {
   return (
     <>
@@ -256,7 +256,7 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
-      <Footer />
+      
     </>
   );
 };

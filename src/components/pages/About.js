@@ -1,5 +1,5 @@
 import React from 'react';
-import Footer from "../includes/Footer";
+
 
 const About = () => {
 
@@ -31,7 +31,7 @@ const About = () => {
                 </div>
             </div>
         </div>
-              <Footer />
+              
 
     </>
   );

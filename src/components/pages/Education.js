@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "../includes/Footer";
+
 const Education = () => {
   return (
     <>
@@ -59,7 +59,7 @@ const Education = () => {
           </div>
         </div>
       </div>
-      <Footer />
+      
     </>
   );
 };
