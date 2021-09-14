@@ -29,4 +29,4 @@ https://github.com/larafoster/portfolio-react
 
 ![Screenshot from deployed website](https://github.com/larafoster/portfolio-react/blob/main/public/assets/images/screenshot1.png)
 ![Screenshot from deployed website](https://github.com/larafoster/portfolio-react/blob/main/public/assets/images/screenshot2.png)
-![Screenshot from deployed website](https://github.com/larafoster/portfolio-react/blob/main/public/assets/images/screenshot3.png)
+![Screenshot from deployed website](https://github.com/larafoster/portfolio-react/blob/main/public/assets/images/screenshot3.png )
