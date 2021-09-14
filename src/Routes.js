@@ -6,6 +6,8 @@ import "./assets/css/main.css";
 import "./assets/css/responsive.css";
 import "./assets/css/renderPage.css";
 
+import Home from './components/pages/Home.js';
+
 import About from './components/pages/About.js';
 import Skills from './components/pages/Skills.js';
 import Experience from './components/pages/Experience.js';
@@ -21,7 +23,7 @@ const Routes = () => {
 
 
 <Switch>
-      <Route path="/"> <About /></Route>
+      <Route path="/"> <Home /></Route>
       <Route exact path="/about"> <About /></Route>
       <Route exact path="/skills"> <Skills /></Route>
       <Route exact path="/experience"> <Experience /></Route>
