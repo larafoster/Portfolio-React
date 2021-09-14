@@ -1,11 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import NavTop from "../includes/Nav";
 import Footer from "../includes/Footer";
 const Experience = () => {
   return (
     <>
-      <NavTop />
 
       <div id="experience" className="experience-section section-padding">
         <div className="container">

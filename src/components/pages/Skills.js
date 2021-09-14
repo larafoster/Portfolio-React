@@ -1,12 +1,10 @@
 import React from "react";
 import { Progress } from "reactstrap";
 
-import NavTop from "../includes/Nav";
 import Footer from "../includes/Footer";
 const Skills = () => {
   return (
     <>
-      <NavTop />
       <div id="skill" className="skill-section bg-color section-padding">
         <div className="container">
           <div className="row">

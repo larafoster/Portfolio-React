@@ -1,13 +1,11 @@
 import React from "react";
 import { ExternalLink } from "react-external-link";
 import { Link } from "react-router-dom";
-import NavTop from "../includes/Nav";
 import Footer from "../includes/Footer";
 import ContactForm from "../includes/contactForm.js";
 const Contact = () => {
   return (
     <>
-      <NavTop />
 
       <div id="contact" className="contact-section bg-color section-padding">
         <div className="container">

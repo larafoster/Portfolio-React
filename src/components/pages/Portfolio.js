@@ -1,11 +1,9 @@
 import React from "react";
 import { ExternalLink } from "react-external-link";
-import NavTop from "../includes/Nav";
 import Footer from "../includes/Footer";
 const Portfolio = () => {
   return (
     <>
-      <NavTop />
 
       <div id="portfolio" className="portfolio-section section-padding">
         <div className="container">

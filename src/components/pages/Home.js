@@ -1,6 +1,7 @@
 import React from "react";
 import { ExternalLink } from 'react-external-link';
 import { Link } from 'react-router-dom';
+import NavTop from "../includes/Nav";
 
 
 const Home = () => {
@@ -42,7 +43,7 @@ const Home = () => {
                             
                            </div>  </div> </div> </div> </div> </div> </div>
         
-      
+      <NavTop />
       
     
     </>

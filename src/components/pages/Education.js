@@ -1,10 +1,8 @@
 import React from "react";
-import NavTop from "../includes/Nav";
 import Footer from "../includes/Footer";
 const Education = () => {
   return (
     <>
-      <NavTop />
 
       <div
         id="education"
