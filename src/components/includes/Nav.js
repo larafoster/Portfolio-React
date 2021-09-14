@@ -29,7 +29,9 @@ const NavTop = () => {
                        
                             <nav id="mainmenu">
                                 <ul className="nav navbar-nav">
-                                    <li><NavHashLink to="#top">Top</NavHashLink></li>
+                                    <li><NavHashLink to="/"
+                                    
+                                    >Top</NavHashLink></li>
 
                                     <li>
                                         <NavLink to="/">About Me</NavLink></li><li>

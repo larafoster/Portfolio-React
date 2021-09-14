@@ -29,7 +29,7 @@ const Header = () => {
                                             <ExternalLink href="https://github.com/larafoster/larafoster" title="view my github repo"><i className="fab fa-github fa-3x"
                                                 aria-hidden="true"></i></ExternalLink></li>
                                         <li className="list-inline-item">
-                                            <Link to="resume"><i className="far fa-file-user fa-3x" aria-hidden="true"
+                                            <Link to="resume" target="_blank"><i className="far fa-file-user fa-3x" aria-hidden="true"
                                                 alt="download resume"></i></Link>
                                         </li>
                                     </ul>

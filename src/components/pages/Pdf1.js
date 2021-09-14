@@ -6,7 +6,7 @@ const Pdf1= () => {
     <>
 <div>
     <iframe
-            style={{ width: "1200px", height: "1600px" }}
+            style={{ width: "800px", height: "1100px" }}
             src={file}
             type='application/pdf'
             title='Resume - Lara Foster'
