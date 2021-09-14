@@ -27,6 +27,6 @@ https://github.com/larafoster/portfolio-react
 
 ## Screenshots
 
-![Screenshot from deployed website](./src/assets/images/Screenshot1.png)
-![Screenshot from deployed website](./src/assets/images/Screenshot2.png)
-![Screenshot from deployed website](./src/assets/images/Screenshot3.png)
+![Screenshot from deployed website](./public/assets/images/Screenshot1.png)
+![Screenshot from deployed website](./public/assets/images/Screenshot2.png)
+![Screenshot from deployed website](./public/assets/images/Screenshot3.png)
