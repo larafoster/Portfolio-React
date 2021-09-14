@@ -1,11 +1,13 @@
 import React from 'react';
-
+import Header from "./components/includes/Header.js";
+import NavTop from "./components/includes/Nav.js";
 
 const About = () => {
 
   return (
     <>
-
+<Header />
+<NavTop />
       <div id="about" className="about-section section-padding">
             <div className="container">
                 <div className="row">
