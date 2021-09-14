@@ -1,5 +1,7 @@
 import React from 'react';
 import { NavHashLink } from 'react-router-hash-link';
+import { NavLink } from 'react-router-dom';
+
 import NavMobile from './NavMobile';
 import {
     Container,
@@ -27,17 +29,17 @@ const NavTop = () => {
                        
                             <nav id="mainmenu">
                                 <ul className="nav navbar-nav">
-                                    <li><NavHashLink duration={500} exact to="/#top">Home</NavHashLink></li>
+                                    <li><NavHashLink to="/#top">Home</NavHashLink></li>
 
                                     <li>
-                                        <NavHashLink duration={500} exact activeClassName="current" to="about#navigation">About Me</NavHashLink></li><li>
-                                        <NavHashLink duration={500} exact activeClassName="current" to="skills#navigation">Skills</NavHashLink></li><li>
-                                        <NavHashLink duration={500} exact activeClassName="current" to="experience#navigation">Experience</NavHashLink></li><li>
-                                        <NavHashLink duration={500} exact activeClassName="current" to="education#navigation">Education</NavHashLink></li><li>
-                                        <NavHashLink duration={500} exact activeClassName="current" to="portfolio#navigation">Portfolio</NavHashLink></li>
+                                        <NavLink activeClassName="current" to="/about#navigation">About Me</NavLink></li><li>
+                                        <NavHashLink activeClassName="current" to="./skills#navigation">Skills</NavHashLink></li><li>
+                                        <NavHashLink activeClassName="current" to="./experience#navigation">Experience</NavHashLink></li><li>
+                                        <NavHashLink activeClassName="current" to="./education#navigation">Education</NavHashLink></li><li>
+                                        <NavHashLink activeClassName="current" to="./portfolio#navigation">Portfolio</NavHashLink></li>
                                         <li>
 
-                                        <NavHashLink duration={500} exact activeClassName="current" to="contact#navigation">Contact</NavHashLink></li>
+                                        <NavHashLink activeClassName="current" to="./contact#navigation">Contact</NavHashLink></li>
                                 </ul>
 
                             </nav>
