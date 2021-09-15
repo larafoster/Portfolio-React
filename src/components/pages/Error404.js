@@ -1,6 +1,7 @@
 import React from "react";
 // reactstrap components
-import { Container, Row, Col, Button } from "reactstrap";
+import { Container, Row, Col, NavLink } from "reactstrap";
+import { NavLink } from 'react-router-dom';
 
 // core components
 
@@ -25,7 +26,7 @@ function NoMatch() {
               <p className="error-msg">
               We can't seem to find the page you're looking for. <br />
               <span className="mt-2 ml-5" >
-               <Button className="btn-orange mt-2 text-center"  href="/about"><i className="fas fa-undo-alt"></i> Go Back</Button> </span> <br /><br />
+               <NavLink className="btn btn-orange mt-2 text-center"  to="/about"><i className="fas fa-undo-alt"></i> Go Back</NavLink> </span> <br /><br />
               </p>
             </h2>
             </Col>

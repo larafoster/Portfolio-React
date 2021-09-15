@@ -34,7 +34,7 @@ const NavTop = () => {
                                     >Top</NavHashLink></li>
 
                                     <li>
-                                        <NavLink to="/">About Me</NavLink></li><li>
+                                        <NavLink to="/">About </NavLink></li><li>
                                         <NavHashLink activeClassName="current" to="/skills">Skills</NavHashLink></li><li>
                                         <NavHashLink activeClassName="current" to="/experience">Experience</NavHashLink></li><li>
                                         <NavHashLink activeClassName="current" to="/education">Education</NavHashLink></li><li>
