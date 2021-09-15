@@ -1,5 +1,4 @@
 import React from 'react';
-import { ExternalLink } from 'react-external-link';
 
 const Footer = () => {
   return (
@@ -7,7 +6,7 @@ const Footer = () => {
               <div id="footer">
             <div className="container text-center">
                 <div className="footer">
-                    <p> &copy; 2021 <ExternalLink href="#top">Lara Foster</ExternalLink> </p>
+                    <p> &copy; 2021 Lara Foster </p>
                 </div>
             </div>
         </div>
