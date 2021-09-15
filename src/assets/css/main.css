@@ -207,6 +207,11 @@ a:focus, button:focus, .btn:focus,
 
 /* Navigation */
 
+.divider {
+    border-top: 60px;
+    background-color: var(--gray);
+}
+
 #navigation.menu-one .navbar {
     width: 30%;
     left: inherit;

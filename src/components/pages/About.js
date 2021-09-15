@@ -1,13 +1,18 @@
 import React from 'react';
-import Header from "./components/includes/Header.js";
-import NavTop from "./components/includes/Nav.js";
+import Header from "../includes/Header";
+import {
 
+    Navbar
+} from 'reactstrap';
 const About = () => {
 
   return (
     <>
 <Header />
-<NavTop />
+<div className="divider">
+ <Navbar color="light" ></Navbar>
+</div>
+
       <div id="about" className="about-section section-padding">
             <div className="container">
                 <div className="row">
