@@ -47,7 +47,7 @@ const Skills = () => {
                     </div>
                     <div className="d-flex justify-content-between">
                       <strong>Html 5 &amp; CSS 3</strong>
-                      <span className="pr-3">100%</span>
+                      <span className="pr-3">95%</span>
                     </div>
                     <div className="skill-progress">
                       <div className="progress">
