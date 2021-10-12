@@ -25,7 +25,7 @@ function NoMatch() {
               OOPS!<br />
               <p className="error-msg">
               We can't seem to find the page you're looking for. <br />
-              <span className="mt-2 ml-5" >
+              <span className="mt-2" >
                <HashLink to="/about" className="btn btn-orange mt-2 text-center"><i className="fas fa-undo-alt"></i> Go Back</HashLink> </span> <br /><br />
               </p>
             </h2>

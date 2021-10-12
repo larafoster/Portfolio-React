@@ -1,4 +1,5 @@
 import React from "react";
+import { ExternalLink } from 'react-external-link';
 
 const Education = () => {
   return (
@@ -36,11 +37,13 @@ const Education = () => {
                   />
                   <h3>Ohio State University</h3>
                   <h5>College of Engineering</h5>
-                  <h6>Full Stack Coding Certification 2021</h6>
-                  <p>
-                    Project-focused immersive program with emphasis on Mongo,
-                    Express, React, and Node `(MERN)` technical stack.
+                  <h6>Certificate in Full Stack Web Development | 2021</h6>                 
+                   <p>
+                    Project-focused immersive program with emphasis in Mongo,
+                    Express, React, and Node {'(MERN)'} technical stack.
                   </p>
+                  <p>My project work is available for review on  <ExternalLink href="https://github.com/larafoster?tab=repositories/" title="view my github repo"> Github <i className="fab fa-github text-danger fa-2x"
+                                                aria-hidden="true"></i></ExternalLink>.</p>
                 </div>
                 <hr />
                 <div className="education-info">
@@ -51,7 +54,7 @@ const Education = () => {
                   />
                   <h3>Ohio State University</h3>
                   <h5>College of Arts &amp; Sciences</h5>
-                  <h6>Bachelor of Arts Degree 1994</h6>
+                  <h6>Bachelor of Arts Degree | 1994</h6>
                   <p>English, Communication Minor, Honors Program</p>
                 </div>
               </div>

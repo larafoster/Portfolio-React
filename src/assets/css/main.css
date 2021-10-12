@@ -1,7 +1,4 @@
 
-/* ==========================================================================
-    Global
- ========================================================================== */
 /* Global Colors*/
 :root {
     --blue: #007bff;
@@ -12,7 +9,7 @@
     --orange: #f7941d;
     --orange-dk:#f26522;
     --teal: #20c997;
-    --cyan: #17a2b8;
+    --cyan: #0cb5d7;
     --white: #fff;
     --gray: #6c757d;
     --gray-dark: #343a40;
@@ -29,6 +26,8 @@
     --green-dk: #6d9142;    
     --yellow: #f4bf00;
     --red: #ed1c24;
+    --bar-green: #87c05e;
+    --bar-blue: #3c70b4;
   --border-radius: 0.3rem;
 }
 
@@ -39,9 +38,6 @@
   position: fixed;
   width: 100vw;
 }
-
-
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Sacramento');
  
 html,
 body {
@@ -97,6 +93,26 @@ a:focus, button:focus, .btn:focus,
     font-weight: 500;
     line-height: 1rem;
 }
+
+/* text - bg - border colors */
+
+.text-cyan {
+    color: var(--cyan);
+}
+
+.text-blue {
+    color: var(--bar-blue);
+}
+
+.text-orange {
+    color: var(--orange);
+}
+
+.border-orange {
+        border-color: var(--orange);
+
+}
+/* section */
 .section-padding {
     padding-top: 50px;
     padding-bottom: 60px;
@@ -134,14 +150,30 @@ a:focus, button:focus, .btn:focus,
 .section-content {
     max-width: 750px;
 }
+.collapse .card {
+    border-radius: 0 !important;
+
+}
+.btn.btn-skill {
+    background-color: var(--orange);
+    border-color: var(--orange);
+    font-weight: 600;
+    color: white;
+}
+.btn.btn-skill:hover {
+    background-color: var(--orange-dk);
+    color: white;
+}
 
 .btn.btn-orange {
     background-color: var(--orange-dk);
     border-color: var(--orange);
     font-weight: 600;
+    color: white;
 }
 .btn.btn-orange:hover {
     background-color: var(--orange);
+    color: white;
 }
 
 .btn.btn-purple {
@@ -629,6 +661,10 @@ ul.sub-menu {
 
 
 /* About Section */
+#about {
+    margin-bottom: 30px;
+}
+
 .about-section {
     padding-top: 40px;
 }
@@ -702,9 +738,7 @@ ul.sub-menu {
 .skill-section .rating-bar {
     width: 360px;
 }
-.progress {
-    
-}
+
 
 .progress-content {
     overflow: hidden;
@@ -723,15 +757,17 @@ ul.sub-menu {
     font-size: 1.3 rem;
     margin-bottom: 10px;
 }
+#skill {
+    margin-bottom: 60px;
+    }
 
 .skill-progress {
     position: relative;
-    margin-bottom: 40px;
 }
 
 .progress {
     height: 8px;
-    margin-bottom: 22px;
+    margin-bottom: 0px;
     background-color: #ebebeb;
     border-radius: 4px;
     box-shadow: none;
@@ -753,7 +789,7 @@ ul.sub-menu {
 }
 
 .progress-bar.bar1 {
-    background-color: var(--purple);
+    background-color: var(--cyan);
 }
 
 .progress-bar.bar2 {
@@ -761,15 +797,15 @@ ul.sub-menu {
 }
 
 .progress-bar.bar3 {
-    background-color: #f26522;
+    background-color: var(--orange);
 }
 
 .progress-bar.bar4 {
-    background-color: #ed1c24;
+    background-color: var(--danger);
 }
 
 .progress-bar.bar5 {
-    background-color: #87c05e;
+    background-color: var(--bar-green);
 }
 
 .language-skill {
@@ -833,7 +869,9 @@ ul.sub-menu {
 
 
 /* Experience Section */
-
+#experience {
+    margin-bottom: 60px;
+}
 .experience-section .experience {
     overflow: hidden;
 }
@@ -890,8 +928,13 @@ ul.sub-menu {
     margin-bottom: 20px;
 }
 
+.education-info a:hover {
+    color: var(--danger) !important;
+}
 /* Portfolio Section */
-
+#portfolio {
+    margin-bottom: 60px;
+}
 
 .portfolio-item {
     position: relative;
@@ -970,6 +1013,10 @@ img.mfp-img {
 
 
 /* Contact Section */
+#contact.section-padding {
+    padding-top: 50px;
+    padding-bottom: 180px;
+}
 
 .contact-section .icons {
     float: left;
@@ -1281,57 +1328,6 @@ img.mfp-img {
     color: #87c05e;
 }
 
-
-/* Profile Section */
-
-.profile-section .section-padding {
-    padding-top: 10px;
-    padding-bottom: 120px;
-}
-
-.profile-section {
-    font-size: 1.2 rem;
-    line-height: 24px;  
-}
-
-.profile-section .profile-info {
-    margin-bottom: 70px;
-    overflow: hidden;
-}
-
-.profile-logo {
-    float: left;
-    margin-right: 40px;
-}
-
-.profile-info h1 {
-    font-size: 56px;
-    margin: 0;
-}
-
-.profile-info h4 {
-    margin-top: 5px;
-}
-
-.profile-info address {
-    font-size: 1.2 rem;
-    line-height: 24px;
-}
-
-.profile-info address a {
-    color: #2d3038;
-}
-
-.profile-info address a:hover {
-    color: #87c05e;
-}
-
-.profile-section h3 {
-    margin-top: 25px;
-    margin-bottom: 25px;
-    display: inline-block;
-}
-
 .career-objective {
     padding-bottom: 10px;
 }
@@ -1516,8 +1512,9 @@ img.mfp-img {
 #footer {
     color: #fff;
     background-color: #87c05e;
-    padding-top: 22px;
+    padding-top: 32px;
     padding-bottom: 10px;
+    
 }
 
 #footer a {
@@ -1810,3 +1807,73 @@ a, #contact-section li a i:hover,
     top: 80%
 }
 /* END Card Image Overlay */
+
+
+/* font-awesome unicode */
+
+/* Step 1: Common Properties: All required to make icons render reliably */
+.icon::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Step 2: Reference Individual Icons */
+.login::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f007";
+}
+
+/* Note: Make sure to include the correct weight and Unicode value for the icon */
+.tps::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 400;
+  content: "\f1ea";
+}
+
+/* Duotone  */
+
+/* Step 1: Common Duotone Properties: All required to make icons render reliably */
+.icon-duotone {
+  position: relative;
+  padding-left: 1.25em; /* make space for the width of the absolutely positioned icon */
+}
+
+/* Step 2: Set the font-family and font-weight for this style */
+.icon-duotone::before,
+.icon-duotone::after {
+  font-family: "Font Awesome 5 Duotone";
+  font-weight: 900;
+
+  /* position both layers of the icon to the left, set our fixed-width width, horizontally center layers, and then vertically align them so they flex with different line heights */
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1.25em;
+  text-align: center;
+}
+
+/* Step 3: Set the default opacity levels and colors for each layer */
+.icon-duotone::before {
+  color: var(--fa-primary-color, inherit);
+  opacity: 1;
+  opacity: var(--fa-primary-opacity, 1.0);
+}
+
+.icon-duotone::after {
+  color: var(--fa-secondary-color, inherit);
+  opacity: var(--fa-secondary-opacity, 0.4);
+}
+
+/* Step 4: Reference Individual Icon's Layers */
+.icon-login::before {
+  content: "\f007";
+}
+
+.icon-login::after {
+  content: "\10f007";
+}
