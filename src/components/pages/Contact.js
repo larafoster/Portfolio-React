@@ -73,7 +73,7 @@ const Contact = () => {
                             </Link>
                           </li>
                           <li>
-                            <ExternalLink href="https://www.linkedin.com/in/lara-foster-40189212/">
+                            <ExternalLink href="https://www.linkedin.com/in/lara-foster-dev/">
                               <i
                                 className="fab fa-linkedin fa-2x"
                                 aria-hidden="true"
