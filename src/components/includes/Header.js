@@ -22,7 +22,7 @@ const Header = () => {
                                             title="email me"><i className="far fa-at fa-3x " aria-hidden="true"></i></ExternalLink>
                                         </li>
                                         <li className="list-inline-item"><ExternalLink
-                                            href="https://www.linkedin.com/in/lara-foster-40189212/" target="_blank"
+                                            href="https://www.linkedin.com/in/lara-foster-dev/" target="_blank"
                                             title="visit me on Linkedin"><i className="fab fa-linkedin fa-3x"
                                                 aria-hidden="true"></i></ExternalLink></li>
                                         <li className="list-inline-item">
